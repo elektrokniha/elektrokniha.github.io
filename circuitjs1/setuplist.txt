@@ -22,25 +22,6 @@ impedance.txt Impedances of Same Magnitude
 res-series.txt Series Resonance
 res-par.txt Parallel Resonance
 -
-+Passive Filters
-filt-hipass.txt High-Pass Filter (RC)
-filt-lopass.txt Low-Pass Filter (RC)
-filt-hipass-l.txt High-Pass Filter (RL)
-filt-lopass-l.txt Low-Pass Filter (RL)
-bandpass.txt Band-pass Filter
-bandnoise.txt Band-pass w/ Noise
-notch.txt Notch Filter
-twint.txt Twin-T Filter
-crossover.txt Crossover
-butter10lo.txt Butterworth Low-Pass (10 pole)
-butter10hi.txt Butterworth High-Pass (10 pole)
-butter10loaud.txt Butterworth Low-Pass w/ Noise
-butter10hiaud.txt Butterworth High-Pass w/ Noise
-butterbandstop.txt Butterworth Band-Stop
-besselbutter.txt Bessel vs Butterworth
-ringing.txt Band-pass with Ringing
-comb.txt Comb Filter
--
 +Other Passive Circuits
 +Series/Parallel
 indseries.txt Inductors in Series
@@ -114,53 +95,6 @@ diodeclip.txt Waveform Clipper
 sinediode.txt Triangle-to-Sine Converter
 ringmod.txt Ring Modulator
 -
-+Op-Amps
-opamp.txt Op-Amp
-opampfeedback.txt Op-Amp Feedback
-+Amplifiers
-amp-invert.txt Inverting Amplifier
-amp-noninvert.txt Noninverting Amplifier
-amp-follower.txt Follower
-amp-diff.txt Differential Amplifier
-amp-sum.txt Summing Amplifier
-logconvert.txt Log Amplifier
-classd.txt Class-D Amplifier
--
-+Oscillators
-relaxosc.txt Relaxation Oscillator
-phaseshiftosc.txt Phase-Shift Oscillator
-triangle.txt Triangle Wave Generator
-sine.txt Sine Wave Generator
-sawtooth.txt Sawtooth Wave Generator
-vco.txt Voltage-Controlled Oscillator
-trianglevco.txt Triangle VCO
--
-amp-rect.txt Half-Wave Rectifier (inverting)
-amp-fullrect.txt Full-Wave Rectifier
-peak-detect.txt Peak Detector
-amp-integ.txt Integrator
-amp-dfdx.txt Differentiator
-amp-schmitt.txt Schmitt Trigger
-nic-r.txt Negative Impedance Converter
-gyrator.txt Gyrator
-capmult.txt Capacitance Multiplier
-howland.txt Howland Current Source
-itov.txt I-to-V Converter
-delta-pwm.txt Delta PWM Encoder
-opamp-regulator.txt Voltage Regulator
-opint.txt 741 Internals
-opint-invert-amp.txt 741 (inverting amplifier)
-opint-slew.txt 741 Slew Rate
-opint-current.txt 741 Current Limits
-+Chaotic Circuits
-rossler.txt Rossler
-vilnius.txt Vilnius
-chua.txt Chua
-chaos1.txt Chaos 1
-chaos2.txt Chaos 2
-jerk.txt Jerk
--
--
 +Transistors
 npn.txt NPN Transistor
 pnp.txt PNP Transistor
@@ -221,27 +155,6 @@ inv-osc.txt Inverter Oscillator
 analogrecip.txt Analog Reciprocal
 crystalosc.txt CMOS Crystal Oscillator
 -
-+555 Timer Chip
-555square.txt Square Wave Generator
-555int.txt Internals
-555saw.txt Sawtooth Oscillator
-555lowduty.txt Low-duty-cycle Oscillator
-555monostable.txt Monostable Multivibrator
-555pulsemod.txt Pulse Width Modulator
-555sequencer.txt Pulse Sequencer
-555schmitt.txt Schmitt Trigger (inverting)
-555missing.txt Missing Pulse Detector
--
-+Active Filters
-filt-vcvs-lopass.txt VCVS Low-Pass Filter
-filt-vcvs-hipass.txt VCVS High-Pass Filter
-switchedcap.txt Switched-Capacitor Filter
-allpass1.txt Allpass
-allpass2.txt Allpass w/ Square
-actbutterlo.txt Butterworth Low-Pass
-actbutterhi.txt Butterworth High-Pass
-actbutterband.txt Butterworth Band-Pass
--
 +Logic Families
 +RTL
 rtlinverter.txt RTL Inverter
@@ -273,14 +186,6 @@ cmosmsff.txt CMOS Master-Slave Flip-Flop
 -
 +ECL
 eclnor.txt ECL NOR/OR
--
-+Ternary
-3-cgand.txt CGAND
-3-cgor.txt CGOR
-3-invert.txt Complement (F210)
-3-f211.txt F211
-3-f220.txt F220
-3-f221.txt F221
 -
 -
 +Combinational Logic
@@ -334,18 +239,6 @@ pll2.txt Type II PLL
 pll2a.txt Type II PLL (fast)
 freqdouble.txt Frequency Doubler
 -
-+Transmission Lines
-tl.txt Simple TL
-tlstand.txt Standing Wave
-tlterm.txt Termination
-tlmismatch.txt Mismatched lines (Pulse)
-tlmis1.txt Mismatched lines (Standing Wave)
-tlmatch1.txt Impedance Matching (L-Section)
-tlmatch2.txt Impedance Matching (Shunt Stub)
-tlfreq.txt Stub Frequency Response
-tllopass.txt Low-Pass Filter
-tllight.txt Light Switch
--
 +Misc Devices
 +JFETs
 jfetcurrentsrc.txt JFET Current Source
@@ -378,28 +271,10 @@ triodeamp.txt Amplifier
 scr.txt SCR
 scractrig.txt AC Trigger
 -
-+Current Conveyor
-cc2.txt CCII+
-cc2n.txt CCII-
-ccinductor.txt Inductor Simulator
-cc2imp.txt CCII+ Implementation
-cc2impn.txt CCII- Implementation
-cciamp.txt Current Amplifier
-ccvccs.txt VCCS
-ccdiff.txt Current Differentiator
-ccint.txt Current Integrator
-ccitov.txt Current-Controlled Voltage Source
--
 +Spark Gap
 spark-sawtooth.txt Sawtooth Generator
 tesla.txt Tesla Coil
 spark-marx.txt Marx Generator
--
-+ Operational Transconductance Amplifier (OTA)
-ota-vca.txt OTA Voltage Controlled Amplifier (VCA)
-ota-vcf-single.txt OTA Single Stage VCF (low pass)
-ota-ringmod.txt OTA Ring Modulator
-ota-gain.txt LM137000 Gain Oddity
 -
 + Light Bulb
 lightbulb.txt Light Bulb
