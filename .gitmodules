@@ -1,0 +1,3 @@
+[submodule "simcir"]
+	path = simcir
+	url = git@github.com:kazuhikoarase/simcirjs.git
