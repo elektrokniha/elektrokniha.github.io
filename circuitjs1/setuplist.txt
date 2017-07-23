@@ -31,17 +31,6 @@ potdivide.txt Potentiometer Divider
 thevenin.txt Thevenin's Theorem
 norton.txt Norton's Theorem
 -
-+A/C Circuits
-capac.txt Capacitor
-inductac.txt Inductor
-capmultcaps.txt Caps of Various Capacitances
-capmultfreq.txt Caps w/ Various Frequencies
-indmultind.txt Inductors of Various Inductances
-indmultfreq.txt Inductors w/ Various Frequencies
-impedance.txt Impedances of Same Magnitude
-res-series.txt Series Resonance
-res-par.txt Parallel Resonance
--
 +Other Passive Circuits
 +Series/Parallel
 indseries.txt Inductors in Series
@@ -88,6 +77,17 @@ ladder.txt LC Ladder
 -
 phaseseq.txt Phase-Sequence Network
 lissa.txt Lissajous Figures
+-
++A/C Circuits
+capac.txt Capacitor
+inductac.txt Inductor
+capmultcaps.txt Caps of Various Capacitances
+capmultfreq.txt Caps w/ Various Frequencies
+indmultind.txt Inductors of Various Inductances
+indmultfreq.txt Inductors w/ Various Frequencies
+impedance.txt Impedances of Same Magnitude
+res-series.txt Series Resonance
+res-par.txt Parallel Resonance
 -
 +Diodes
 diodevar.txt Diode

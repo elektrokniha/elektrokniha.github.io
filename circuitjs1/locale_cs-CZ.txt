@@ -781,7 +781,7 @@
 "Universal Shift Register"="Univerzální posuvný registr"
 "Light Bulb"="Žárovka"
 "Wien Bridge Oscillator"="Oscilátor s Wienovým můstkem"
-"Book Examples" = "Příklady ke knize"
+"Book Examples"="Příklady ke knize"
 "LED Flasher"="Blikač"
 "Three Batteries"="Baterie"
 "Current Divider"="Dělič proudu"
