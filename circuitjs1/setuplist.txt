@@ -1,6 +1,23 @@
 ### setuplist.txt first line must be a comment
-+Kniha
-invertor-flasher.txt Blikac
++Book Examples
+invertor-flasher.txt LED Flasher
+tribat.txt Three Batteries
+delpro.txt Current Divider
+ledpot.txt LED + Potentiometer
+lsp.txt Led serial / parallel
+7400.txt NAND basics
+schm.txt Schmitt Trigger
+mrgn.txt deMorgan's Law
+muxao.txt Multiplexer
+add4.txt 4-bit Adder
+zvnk.txt Ring Bell
+pnor.txt Head or Tail
+pwma.txt PWM Audio
+del2.txt Divider by 2
+citn.txt Counter normal
+cit3.txt 3bit counter
+hod.txt Digital watches
+lcnv.txt Voltage level converter
 -
 +Basics
 ohms.txt Ohm's Law
