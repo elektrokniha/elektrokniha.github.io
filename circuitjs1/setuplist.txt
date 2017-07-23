@@ -1,6 +1,6 @@
 ### setuplist.txt first line must be a comment
 +Kniha
-invertor-flasher.txt Blikač
+invertor-flasher.txt Blikac
 -
 +Basics
 ohms.txt Ohm's Law
