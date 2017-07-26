@@ -800,3 +800,4 @@
 "3bit counter"="Tříbitový čítač"
 "Digital watches"="Digitální hodiny"
 "Voltage level converter"="Převodník napěťových úrovní"
+"Monostable FF"="Monostabilní klopný obvod"

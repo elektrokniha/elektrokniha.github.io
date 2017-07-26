@@ -8,6 +8,7 @@ lsp.txt Led serial / parallel
 7400.txt NAND basics
 schm.txt Schmitt Trigger
 mrgn.txt deMorgan's Law
+mono.txt Monostable FF
 muxao.txt Multiplexer
 add4.txt 4-bit Adder
 zvnk.txt Ring Bell
