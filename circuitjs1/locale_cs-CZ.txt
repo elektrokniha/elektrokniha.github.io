@@ -458,7 +458,7 @@
 "Plot X/Y"="Graf X/Y"
 "Potentiometer"="Potenciometr"
 "Potentiometer Divider"="Potenciometrový dělič"
-"Power Brightness"="Helligkeit der Leistungsanzeige"
+"Power Brightness"="Jas výkonu / příkonu"
 "Power Factor"="Účiník (kosinus fí)"
 "Power Factor Correction"="Korekce účiníku"
 "Primary Inductance (H)"="Primární indukčnost (H)"
