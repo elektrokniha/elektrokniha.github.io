@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="utf-8">
 <title>Insert title here</title>
 </head>
 <body>
-<H1>Hello World</H1>
+<script style="text/javascript">
+  document.write('<a style="display:none!important" id="4120028"></a>');
+  if (window.AED_SHOW) {
+    window.AED_SHOW({wid: '4120028',shortkey:'rZfUJmU', size:'120x600', custom:{}});
+  } else {
+    window.AED_ONLOAD = window.AED_ONLOAD || [];
+    window.AED_ONLOAD.push({wid:'4120028',shortkey:'rZfUJmU',size:'120x600',custom:{}});
+    if (!document.getElementById("ae-ad-script-$")) {
+      var s = document.createElement("script"),
+      h = document.getElementsByTagName("head")[0];
+      s.id = 'ae-ad-script-$';
+      s.charset = "utf-8";
+      s.async = !0;
+      s.src = "//i.alicdn.com/ae-game/thirdparty/show-window/index.js";
+      h.insertBefore(s, h.firstChild)
+    }
+  }
+</script>
+
 </body>
 </html>
