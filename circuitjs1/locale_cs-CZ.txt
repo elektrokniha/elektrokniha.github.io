@@ -801,3 +801,6 @@
 "Digital watches"="Digitální hodiny"
 "Voltage level converter"="Převodník napěťových úrovní"
 "Monostable FF"="Monostabilní klopný obvod"
+"Simple monostable FF"="Základní MKO"
+"Positive pulse"="MKO s pozitivní logikou"
+"Monostable, retriggerable"="Monostabilní KO se znovuspouštěním"

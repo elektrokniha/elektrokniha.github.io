@@ -8,7 +8,11 @@ lsp.txt Led serial / parallel
 7400.txt NAND basics
 schm.txt Schmitt Trigger
 mrgn.txt deMorgan's Law
-mono.txt Monostable FF
++Monostable FF
+mono.txt Simple monostable FF
+monopos.txt Positive pulse
+monotrig.txt Monostable, retriggerable
+-
 muxao.txt Multiplexer
 add4.txt 4-bit Adder
 zvnk.txt Ring Bell
@@ -60,6 +64,7 @@ relayctr.txt Relay Counter
 3way.txt 3-Way Light Switches
 4way.txt 3- and 4-Way Light Switches
 diff.txt Differentiator
+integ.txt Integrator
 wheatstone.txt Wheatstone Bridge
 lrc-critical.txt Critically Damped LRC
 currentsrcelm.txt Current Source
