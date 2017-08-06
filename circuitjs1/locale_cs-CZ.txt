@@ -804,3 +804,5 @@
 "Simple monostable FF"="Základní MKO"
 "Positive pulse"="MKO s pozitivní logikou"
 "Monostable, retriggerable"="Monostabilní KO se znovuspouštěním"
+"Charge pump with switch"="Nábojová pumpa se spínači"
+"Charge pump with D-C ladder"="Nábojová pumpa s žebříčkem dioda-kondenzátor"

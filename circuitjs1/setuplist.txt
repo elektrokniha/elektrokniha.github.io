@@ -23,6 +23,8 @@ citn.txt Counter normal
 cit3.txt 3bit counter
 hod.txt Digital watches
 lcnv.txt Voltage level converter
+cpump.txt Charge pump with switch
+cpump2.txt Charge pump with D-C ladder
 -
 +Basics
 ohms.txt Ohm's Law
