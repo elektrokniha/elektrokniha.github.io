@@ -2,6 +2,16 @@
 <html lang="cs">
 <head>
 <meta charset="utf-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190512-52"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-190512-52');
+</script>
+
 <title>Elektrokniha</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="" />
@@ -26,8 +36,8 @@
 </head>
 <body>
 <div id="wrapper">
-	<!-- start header -->
-	<header>
+    <!-- start header -->
+    <header>
         <div class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -36,40 +46,41 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><span>E</span>lektro<span>k</span>niha</a>
+                    <a class="navbar-brand" href="index.html"><span>H</span>radla, <span>v</span>olty, <span>j</span>ednočipy</a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Úvod</a></li>
                         <li class="dropdown">
+                            <a href="kniha.html" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Kniha <b class=" icon-angle-down"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="obsah.html">Obsah</a></li>
+                                <li><a href="kniha.html">Kde získat knihu?</a></li>
+                            </ul>
+                        </li>    
+                        <li><a href="parts.html">Součástky</a></li>
+                        <li class="dropdown">
                             <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Pomůcky <b class=" icon-angle-down"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="typography.html">Kalkulačka</a></li>
-                                <li><a href="components.html">Jiná kalkulačka</a></li>
-								<li><a href="pricingbox.html">Ještě jinější kalkulačka</a></li>
+                                <li><a href="simcir.html">SimCir</a></li>
+                                <li><a href="http://www.ohmslawcalculator.com/ohms-law-calculator">Kalkulačka pro Ohmův zákon</a></li>
+                                <li><a href="http://www.hobby-hour.com/electronics/ledcalc.php">Výpočet rezistoru k LED</a></li>
+                                <li><a href="http://www.calculatoredge.com/index.htm#electronics">Další online kalkulačky</a></li>
+                                <li><a href="http://www.schematics.com">Online kreslení schémat</a></li>
+
                             </ul>
                         </li>
                         <li><a href="circuitjs.html">Emulátor</a></li>
                         <li><a href="//github.com/elektrokniha">Zdrojové kódy</a></li>
-                        <li><a href="contact.html">Vydavatel</a></li>
+                        <li><a href="//nic.cz">Vydavatel</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-	</header>
-	<!-- end header -->
-	<section id="inner-headline">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<ul class="breadcrumb">
-					<li><a href="https://github.com/kazuhikoarase/simcirjs"><i class="fa fa-home"></i></a><i class="icon-angle-right"></i></li>
-					<li class="active">SimCir</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	</section>
+    </header>
+    <!-- end header -->
+
+
 	<section id="content">
 	<div class="container">
 	<div class="row">
@@ -128,13 +139,13 @@
 		<div class="row">
 		<h2>Usage</h2>
 <ul>
-  <li>Choose a device from the toolbox and move to right side.</li>
-  <li>Connect them by drag operation.</li>
-  <li>Click an input node to disconnect.</li>
-  <li>Move a device back to the toolbox if you don't use.</li>
-  <li>Ctrl+Click(Mac:command+Click) to toggle view (Live circuit or JSON data).</li>
-  <li>Double-Click a label to edit device name.</li>
-  <li>Double-Click a library to open the circuit inside.</li>
+  <li>Vyberte si obvod z nabídky vlevo a přetáhněte jej na pracovní plochu.</li>
+  <li>Vývody propojujete tažením myši.</li>
+  <li>Kliknutím na vstupní pin rozpojíte spoj.</li>
+  <li>Komponentu, kterou nepotřebujete, přetáhněte zpět doleva.</li>
+  <li>Ctrl+Click(Mac:command+Click) ukáže textový popis obvodu.</li>
+  <li>Double-Click na titulek komponenty edituje její název.</li>
+  <li>Double-Click na knihovnu otvírá součástky uvnitř.</li>
 </ul>
 		</div>
 	</div>
@@ -159,11 +170,8 @@
 				</div>
 				<div class="col-lg-6">
 					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="https://fb.me/eknhcz" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/iotta_cz" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -188,29 +196,7 @@
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="./simcir.js"></script>
-<script>
-jQuery(document).ready(function($) {
-    //Google Map
-    var get_latitude = $('#google-map').data('latitude');
-    var get_longitude = $('#google-map').data('longitude');
 
-    function initialize_google_map() {
-        var myLatlng = new google.maps.LatLng(get_latitude, get_longitude);
-        var mapOptions = {
-            zoom: 14,
-            scrollwheel: false,
-            center: myLatlng
-        };
-        var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map
-        });
-    }
-    google.maps.event.addDomListener(window, 'load', initialize_google_map);
-});
-</script>
-<script src="contactform/contactform.js"></script>
 
 </body>
 </html>
