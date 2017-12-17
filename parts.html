@@ -124,34 +124,45 @@
 				<h3>Integrované obvody (IC, integrated circuit)</h3>
 <ul>
 
-<li>Standardní hradla TTL (TTL gates): 7400 (4x NAND <a href="https://www.gme.cz/74hct00-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 7402 (4x NOR), 7486 (4x XOR), 7404 (6x invertor), 7414 (6x invertor se Schmittovým klopným obvodem), 7405 (6x invertor s otevřeným kolektorem), 7408 (4x AND). Od každého typu vezměte tak pět kousků. Volte řadu HCT (74HCT00, ...) popřípadě ALS.</li>
-<li>Komplexnější obvody TTL: 7474 (2x klopný obvod D), 7475 (2x 2bit latch), 7490 (4bitový desítkový čítač), 7493 (4bitový binární čítač), 74138 (dekodér 1-z-8), 74595 (8bitový posuvný registr/bu er SIPO), 74162 (8bitový posuvný registr PISO).</li>
-<li>Sériové paměti: 24C01 (sériová EEPROM 128 byte, I2C), 23LC512 (SPI sériová SRAM).</li>
+<li>Standardní hradla TTL (TTL gates): 7400 (4x NAND <a href="https://www.gme.cz/74hct00-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 7402 (4x NOR <a href="https://www.gme.cz/74hct02-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 7486 (4x XOR <a href="https://www.gme.cz/74hct86-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 7404 (6x invertor <a href="https://www.gme.cz/74hct04-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 7414 (6x invertor se Schmittovým klopným obvodem <a href="https://www.gme.cz/74hct14-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 7405 (6x invertor s otevřeným kolektorem), 7408 (4x AND <a href="https://www.gme.cz/74hct08-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>). Od každého typu vezměte tak pět kousků. Volte řadu HCT (74HCT00, ...) popřípadě ALS.</li>
+
+
+<li>Komplexnější obvody TTL: 7474 (2x klopný obvod D <a href="https://www.gme.cz/74hct74-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>),
+ 7475 (2x 2bit latch <a href="https://www.gme.cz/74hc75-dip16"><span class="fa fa-shopping-cart"></span> GME</a>), 
+7490 (4bitový desítkový čítač <a href="https://www.tme.eu/cz/details/sn74ls90n/citacedelice/texas-instruments/"><span class="fa fa-shopping-cart"></span> TME</a>), 
+7493 (4bitový binární čítač <a href="https://www.gme.cz/74hct93-dip14-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 
+74138 (dekodér 1-z-8 <a href="https://www.gme.cz/74hct138-dip16-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 
+74595 (8bitový posuvný registr/buffer SIPO <a href="https://www.gme.cz/74hc595-dip16-texas-instruments"><span class="fa fa-shopping-cart"></span> GME</a>), 
+74162 (8bitový posuvný registr PISO <a href="https://www.gme.cz/74hct162-dip16-philips"><span class="fa fa-shopping-cart"></span> GME</a>).</li>
+
+
+<li>Sériové paměti: 24C01 (sériová EEPROM 128 byte, I2C <a href="https://www.gme.cz/24c01"><span class="fa fa-shopping-cart"></span> GME</a>), 
+23LC512 (SPI sériová SRAM).</li>
 
 </ul>
 				<h3>Arduino a spol.</h3>
 <ul>
-<li>Arduino Uno. Pro začátečníka nezbytnost, a doporučím: pokud si kupujete své první, kupte si originální od distributora. Některé kusy levných klonů vykazují podivné chyby, které by vás mátly.</li>
-<li>NodeMCU To pokud budete chtít trošku vážněji experimentovat s WiFi. Je to deska koncepčně podobná Arduinu, můžete k ní připojovat leccos, cena není vysoká a programovat to lze jak z Arduino IDE, tak třeba v MicroPythonu.</li>
+<li>Arduino Uno. Pro začátečníka nezbytnost, a doporučím: pokud si kupujete své první, kupte si originální od distributora. Některé kusy levných klonů vykazují podivné chyby, které by vás mátly.  <a href="https://www.hwkitchen.cz/arduino-uno-rev3/"><span class="fa fa-shopping-cart"></span> HWKitchen</a></li>
+<li>NodeMCU. To pokud budete chtít trošku vážněji experimentovat s WiFi. Je to deska koncepčně podobná Arduinu, můžete k ní připojovat leccos, cena není vysoká a programovat to lze jak z Arduino IDE, tak třeba v MicroPythonu. <a href="https://www.gme.cz/nodemcu-lua-esp8266-ch340-wi-fi"><span class="fa fa-shopping-cart"></span> GME</a></li>
 </ul>
 				<h3>Moduly, breakouty</h3>
 				<p>Tady nezbyde než sáhnout po čínských prodejcích a online obchodech, v českých kamenných nejspíš štěstí mít nebudete. Na druhou stranu právě tyto moduly jsou často velmi zajímavé. Nemusíte kupovat všechno, ale něco z toho pro vás bude určitě užitečné.</p>
 <ul>
-<li>HC-SR04. Ultrazvukový měřič vzdálenosti. (Ultrasonic range detector).</li>
-<li>Senzor vlhkosti půdy (Moisture soil sensor).</li>
-<li>PIR senzor (PIR motion detector).</li>
-<li>Sedmisegmentový displej pro Arduino (7segment LED display Arduino module). Zkuste klíčová slova MAX7219 nebo TM1638.</li>
-<li>Teploměr LM75A (LM75A module, LM75A breakout).</li>
-<li>Vlhkoměr DHT22 (DHT22 module, DHT22 breakout).</li>
-<li>Vlhkoměr SHT30 (SHT30 module) – o něco dražší než předchozí, ale přesnější a se standardním rozhraním.</li>
-<li>Barometr BMP180 (BMP180 module).</li>
-<li>Bezdrátové moduly 433 MHz (433 MHz transmitter, 433 MHz receiver; with antenna).</li>
-<li>Bezdrátový komunikační modul nRF24L01+. Alespoň dva. Kupte k nim i redukci na 5 V (nrf24l01 adapter).</li>
-<li>Alfanumerický displej 16 znaků / 2 řádky (1602 display LED).</li>
-<li>Redukci k tomuto displeji na I2C (1602 I2C expander).</li>
-<li>OLED displej 128 × 64 (OLED display module 128 × 64).</li>
-<li>Joystick (Joystick module).</li>
-<li>Rotační enkodér (rotary encoder module).</li>
+<li>HC-SR04. Ultrazvukový měřič vzdálenosti. (Ultrasonic range detector). <a href="https://www.gme.cz/modul-ultrazvukoveho-merice-vzdalenosti"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Senzor vlhkosti půdy (Moisture soil sensor). <a href="https://www.gme.cz/nodemcu-lua-esp8266-ch340-wi-fi"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>PIR senzor (PIR motion detector). <a href="https://www.gme.cz/pir-modul-sb00612a"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Sedmisegmentový displej pro Arduino (7segment LED display Arduino module). Zkuste klíčová slova MAX7219 nebo TM1638. <a href="https://www.gme.cz/nodemcu-lua-esp8266-ch340-wi-fi"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Teploměr LM75A (LM75A module, LM75A breakout). <a href="https://www.gme.cz/nodemcu-lua-esp8266-ch340-wi-fi"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Vlhkoměr DHT22 (DHT22 module, DHT22 breakout). <a href="https://www.gme.cz/digitalni-teplomer-a-vlhkomer-dht22"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Vlhkoměr SHT30 (SHT30 module) – o něco dražší než předchozí, ale přesnější a se standardním rozhraním. <a href="https://www.gme.cz/nodemcu-lua-esp8266-ch340-wi-fi"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Barometr BMP180 (BMP180 module). <a href="https://www.gme.cz/modul-meteocidlo-bmp180"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Bezdrátové moduly 433 MHz (433 MHz transmitter, 433 MHz receiver; with antenna). <a href="https://www.gme.cz/modul-vysilac-prijimac-433mhz"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Bezdrátový komunikační modul nRF24L01+. Alespoň dva. Kupte k nim i redukci na 5 V (nrf24l01 adapter). <a href="https://www.gme.cz/modul-wifi-s-nrf24l01"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Alfanumerický displej 16 znaků / 2 řádky (1602 display LED). <a href="https://www.gme.cz/lcd-i2c-display-16x2"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Redukci k tomuto displeji na I2C (1602 I2C expander). <a href="https://www.gme.cz/prevodnik-i2c-display"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>OLED displej 128 × 64 (OLED display module 128 × 64). <a href="https://www.gme.cz/oled-display-0-96-128x64"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Joystick (Joystick module). <a href="https://www.gme.cz/modul-s-jednim-analogovym-joystickem"><span class="fa fa-shopping-cart"></span> GME</a></li>
+<li>Rotační enkodér (rotary encoder module). <a href="https://www.gme.cz/modul-s-rotacnim-enkoderem"><span class="fa fa-shopping-cart"></span> GME</a></li>
 
 </ul>
 		</div>
