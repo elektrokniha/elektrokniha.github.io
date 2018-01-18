@@ -6,7 +6,8 @@ var remark = function (mark, txt, vars) {
 
 	var replacementFile = fs.readFileSync("../"+mark)+"";
 
-	var rg = new RegExp("[["+vars+"]]", "gm")
+	var rg = new RegExp("\\[\\["+vars+"\\]\\]", "gm")
+	//console.log(rg)
 	replacementFile = replacementFile.replace(rg, ' class="active"');
 
 	replacementFile = replacementFile.replace(/\[\[.*?\]\]/gm, '');
