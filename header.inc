@@ -24,7 +24,7 @@
 
                             </ul>
                         </li>    
-                        <li><a href="parts.html">Součástky</a></li>
+                        <li[[parts.html]]><a href="parts.html">Součástky</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Pomůcky <b class=" icon-angle-down"></b></a>
                             <ul class="dropdown-menu">

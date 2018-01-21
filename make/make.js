@@ -38,4 +38,10 @@ var repl = function (vars) {
 
 }
 
-repl("index.html")
+repl("index.html");
+repl("parts.html");
+repl("obsah.html");
+repl("kniha.html");
+repl("errata.html");
+repl("simcir.html");
+
