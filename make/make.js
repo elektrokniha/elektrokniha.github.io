@@ -44,4 +44,5 @@ repl("obsah.html");
 repl("kniha.html");
 repl("errata.html");
 repl("simcir.html");
+repl("tipy.html");
 
