@@ -21,7 +21,7 @@
                                 <li[[kniha.html]]><a href="kniha.html">Kde získat knihu?</a></li>
                                 <li[[errata.html]]><a href="errata.html" >Errata</a></li>
                                 <li><a href="//nic.cz">Vydavatel</a></li>
-
+                                <li><a href="//github.com/elektrokniha">Zdrojové kódy</a></li>
                             </ul>
                         </li>    
                         <li[[parts.html]]><a href="parts.html">Součástky</a></li>
@@ -37,7 +37,7 @@
                             </ul>
                         </li>
                         <li><a href="circuitjs.html">Emulátor</a></li>
-                        <li><a href="//github.com/elektrokniha">Zdrojové kódy</a></li>
+                        <li[[tipy.html]]><a href="tipy.html">Tipy</a></li>
                         <li><a href="//eknh.cz/forum">Diskuse</a></li>
                     </ul>
                 </div>
