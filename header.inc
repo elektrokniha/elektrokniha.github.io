@@ -38,7 +38,6 @@
                         </li>
                         <li><a href="circuitjs.html">Emulátor</a></li>
                         <li[[tipy.html]]><a href="tipy.html">Tipy</a></li>
-                        <li><a href="//eknh.cz/forum">Diskuse</a></li>
                     </ul>
                 </div>
             </div>
